@@ -10,3 +10,12 @@ The etl.py inturn inserts the data into the schema using insert statements from 
 
 ![alt text](https://github.com/surbhithole/data_modelling_using_postgres/blob/main/sparkify_erd.png)
 
+## How to execute files
+
+First create the tables by executing create_tables.py file
+
+>> pyhton create_tables.py
+
+Insert data into table using the etl file
+
+>> python etl.py
