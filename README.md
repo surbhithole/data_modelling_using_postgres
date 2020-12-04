@@ -8,5 +8,5 @@ The star schema for Sparkify Database has 1 Fact Table (songplays) and 4 Dimensi
 The create_tables.py file contains functions to CREATE DATABASE, CREATE TABLE and DROP TABLE which runs the Postgres SQL queries from sql_queries.py file.
 The etl.py inturn inserts the data into the schema using insert statements from sql_queries.py file.
 
-[[sparkify_erd.png]]
+[[data_modelling_using_postgres/sparkify_erd.png]]
 
